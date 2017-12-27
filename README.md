@@ -10,7 +10,7 @@ I had previously written some simple PNG decoder functions in Python, so I grabb
 
 Then I can convert the resized pictures to a feature vector of 1024 (32*32) pixels of either black (0) or white (1).
 
-For the neural network, I used a model of:
+For the neural network, I used Python's keras.  My model consisted of:
 - A convolutional layer
 - A pooling layer
 - A flattening layer
