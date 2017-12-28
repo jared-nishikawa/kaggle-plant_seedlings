@@ -16,6 +16,12 @@ For the neural network, I used Python's keras.  My model consisted of:
 - A flattening layer
 - A dense layer (to output to a vector of length 12, the number of labels)
 
-Fitting the model took about three hours, so I decided I would just run it once  and submit my results.  I could probably go back and tweak my data prep, or my neural net model, and increase my accuracy, but this was mainly for my own edification, and I'm satisfied.
+Fitting the model took about three hours, so I decided I would just run it once  and submit my results.  
+
+If I were to go back and redo parts of this project, I would try the following:
+- Try to trim every image to a single leaf.
+- Rotate each image to a standard orientation.
+
+These tweaks would probalby increase my accuracy, but since this project was mainly for my own edification, I'm satisfied.
 
 My final model resulted in 67% accuracy on the Kaggle challenge.
