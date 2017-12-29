@@ -22,6 +22,6 @@ If I were to go back and redo parts of this project, I would try the following:
 - Try to trim every image to a single leaf.
 - Rotate each image to a standard orientation.
 
-These tweaks would probalby increase my accuracy, but since this project was mainly for my own edification, I'm satisfied.
+These tweaks would probably increase my accuracy, but since this project was mainly for my own edification, I'm satisfied.
 
 My final model resulted in 67% accuracy on the Kaggle challenge.
